@@ -1,0 +1,30 @@
+{
+  // Intérprete del proyecto: el venv que ya está creado en .venv/
+  "python.defaultInterpreterPath": "/home/fededobal/Escritorio/facultad/BigData/PruebaEmulador/.venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+
+  // Que resuelva los imports locales (MRE.py) desde la raíz del proyecto
+  "python.analysis.extraPaths": ["/home/fededobal/Escritorio/facultad/BigData/PruebaEmulador"],
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic",
+
+  // Pyrefly: type checking en vivo
+  "pyrefly.displayTypeErrors": "force-on",
+
+  "[python]": {
+    "editor.suggest.showKeywords": true,
+    "editor.suggestSelection": "first",
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.parameterHints.enabled": true,
+    "editor.formatOnType": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.inlineSuggest.enabled": true
+}
