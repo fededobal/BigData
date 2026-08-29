@@ -1,0 +1,1 @@
+CANTIDAD de caracteres del párrafo más largo: 	1460

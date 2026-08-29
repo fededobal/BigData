@@ -1,0 +1,1 @@
+PROMEDIO de párrafos entre todos los libros: 	26.545454545454547
