@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "7b70c29e2eb1a2a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "7994f4470f7f9ae0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d86500fcf154a658",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "650d76467267ea3b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9b393b741baa64c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2dde6671d1ca04d0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "17db16ef0292be26",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "d71a563b8d9dd8d9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ed97088e8cd0f7f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a6e5a2ecde52974",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbb5726b7029e33b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "d8d76dea37a8d9e8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "9bdccc24f4d41fa4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "bfe6a96b18adf905",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "fd4681bf513c7d56",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "2dde6671d1ca04d0",
+  "lastOpenFiles": [
+    "Emulador/data/output/wordcount/output.txt",
+    "Emulador/data/output/top20/output.txt",
+    "Emulador/data/output/punto5F/output.txt",
+    "Emulador/data/output/punto5E/output.txt",
+    "Emulador/data/output/punto5D/output.txt",
+    "Emulador/data/output/punto5C/output.txt",
+    "Emulador/data/output/punto5B/output.txt",
+    "Emulador/data/output/punto5A/output.txt",
+    "Emulador/data/output/punto4/output.txt",
+    "Emulador/data/output/ejemploLogsTeoria_tiempos/output.txt",
+    "Emulador/data/output/ejemploLogsTeoria/output.txt",
+    "Emulador/README.md",
+    "PruebaEmulador/README.md",
+    "Teorías/3- Combiners.md",
+    "Teorías/4- Múltiples jobs.md",
+    "Teorías/Imagenes/mapreduce_interfaces.png",
+    "Teorías/Imagenes/Pasted image 20260901144829.png",
+    "Teorías/Imagenes/Pasted image 20260901144706.png",
+    "Teorías/Imagenes/Pasted image 20260901144654.png",
+    "Teorías/Imagenes/Pasted image 20260901144621.png",
+    "Teorías/Imagenes/Pasted image 20260901142501.png",
+    "Teorías/Imagenes/Pasted image 20260825151541.png",
+    "Teorías/Imagenes/Pasted image 20260825151116.png",
+    "Teorías/Imagenes/Pasted image 20260825145926.png",
+    "Teorías/Imagenes/Pasted image 20260825141814.png",
+    "Teorías/2- Paradigma MapReduce.md",
+    "Teorías/0- Conceptos de Big Data.md",
+    "Teorías/1- Ecosistema Hadoop.md",
+    "Prácticas/Práctica 1.md"
+  ]
+}
