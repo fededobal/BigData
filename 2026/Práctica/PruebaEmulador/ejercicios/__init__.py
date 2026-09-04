@@ -8,6 +8,7 @@ from ejercicios import (
     punto5D,
     punto5E,
     punto5F,
+    ejemploLogsTeoria,
 )
 
 MODULOS = [
@@ -20,6 +21,7 @@ MODULOS = [
     punto5D,
     punto5E,
     punto5F,
+    ejemploLogsTeoria,
 ]
 
 REGISTRO = {m.CLAVE: m for m in MODULOS}

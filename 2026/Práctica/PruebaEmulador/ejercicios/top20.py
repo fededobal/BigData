@@ -1,11 +1,9 @@
 import bisect
 
-from ejercicios.comun import OUTPUT, correr
-from ejercicios import wordcount
+from MRE import Job
 
 CLAVE = "top20"
 DESCRIPCION = "Las 20 palabras mas frecuentes (usa la salida de wordcount)"
-SALIDA = "top20"
 
 
 def fmap(key, value, context):
@@ -21,4 +19,4 @@ def fred(key, values, context):
 
 
 def run():
-    return correr(OUTPUT / wordcount.SALIDA, SALIDA, fmap, fred)
+    return Job("data/output/wordcount", "data/output/top20", fmap, fred).waitForCompletion()

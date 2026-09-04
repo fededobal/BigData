@@ -1,8 +1,7 @@
-from ejercicios.comun import LIBROS, correr
+from MRE import Job
 
 CLAVE = "wordcount"
 DESCRIPCION = "Cantidad de apariciones de cada palabra"
-SALIDA = "wordcount"
 
 
 def fmap(key, value, context):
@@ -18,4 +17,4 @@ def fred(key, values, context):
 
 
 def run():
-    return correr(LIBROS, SALIDA, fmap, fred)
+    return Job("data/input/libros", "data/output/wordcount", fmap, fred).waitForCompletion()

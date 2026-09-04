@@ -1,8 +1,7 @@
-from ejercicios.comun import LIBROS, correr
+from MRE import Job
 
 CLAVE = "punto5B"
 DESCRIPCION = "Promedio de palabras por parrafo"
-SALIDA = "punto5B"
 
 
 def fmap(key, value, context):
@@ -19,4 +18,4 @@ def fred(key, values, context):
 
 
 def run():
-    return correr(LIBROS, SALIDA, fmap, fred)
+    return Job("data/input/libros", "data/output/punto5B", fmap, fred).waitForCompletion()

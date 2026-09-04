@@ -1,8 +1,9 @@
-from ejercicios.comun import LIBROS, correr
+import os
+
+from MRE import Job
 
 CLAVE = "punto5C"
 DESCRIPCION = "Promedio de parrafos por libro"
-SALIDA = "punto5C"
 
 
 def fmap(key, value, context):
@@ -11,7 +12,7 @@ def fmap(key, value, context):
 
 
 def fred(key, values, context):
-    cant_libros = sum(1 for f in LIBROS.iterdir() if f.is_file())
+    cant_libros = len(os.listdir("data/input/libros"))
     cant = 0
     for v in values:
         cant += v
@@ -19,4 +20,4 @@ def fred(key, values, context):
 
 
 def run():
-    return correr(LIBROS, SALIDA, fmap, fred)
+    return Job("data/input/libros", "data/output/punto5C", fmap, fred).waitForCompletion()

@@ -12,7 +12,7 @@ def listar():
 def ejecutar(modulo):
     print(f"\n=== {modulo.CLAVE}: {modulo.DESCRIPCION} ===")
     ok = modulo.run()
-    print(f"resultado en data/output/{modulo.SALIDA}/output.txt  ->  {ok}")
+    print(f"resultado en data/output/{modulo.CLAVE}/output.txt  ->  {ok}")
     return ok
 
 

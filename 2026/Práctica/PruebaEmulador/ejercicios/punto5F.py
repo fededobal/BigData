@@ -1,8 +1,7 @@
-from ejercicios.comun import LIBROS, correr
+from MRE import Job
 
 CLAVE = "punto5F"
 DESCRIPCION = "El dialogo mas largo (parrafos con dialogo consecutivos)"
-SALIDA = "punto5F"
 
 
 def fmap(key, value, context):
@@ -32,4 +31,4 @@ def fred(key, values, context):
 
 
 def run():
-    return correr(LIBROS, SALIDA, fmap, fred)
+    return Job("data/input/libros", "data/output/punto5F", fmap, fred).waitForCompletion()

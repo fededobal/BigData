@@ -1,8 +1,7 @@
-from ejercicios.comun import LIBROS, correr
+from MRE import Job
 
 CLAVE = "punto5D"
 DESCRIPCION = "Cantidad de caracteres del parrafo mas largo"
-SALIDA = "punto5D"
 
 
 def fmap(key, value, context):
@@ -18,4 +17,4 @@ def fred(key, values, context):
 
 
 def run():
-    return correr(LIBROS, SALIDA, fmap, fred)
+    return Job("data/input/libros", "data/output/punto5D", fmap, fred).waitForCompletion()

@@ -1,8 +1,7 @@
-from ejercicios.comun import LIBROS, correr
+from MRE import Job
 
 CLAVE = "punto4"
 DESCRIPCION = "Cantidad de vocales, consonantes, numeros, espacios y otros"
-SALIDA = "punto4"
 
 VOCALES = "aeiouáéíóúAEIOUÁÉÍÓÚ"
 
@@ -29,4 +28,4 @@ def fred(key, values, context):
 
 
 def run():
-    return correr(LIBROS, SALIDA, fmap, fred)
+    return Job("data/input/libros", "data/output/punto4", fmap, fred).waitForCompletion()
